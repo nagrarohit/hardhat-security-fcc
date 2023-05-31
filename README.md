@@ -4,7 +4,7 @@ This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Cours
 
 This repo has a few contracts with big flaws, see if you can see them, and see if the tools help you find them!
 
-*This repo has been updated for Sepolia over Goerli.*
+ 
 
 *[⌨️ (31:28:32) Lesson 18: Security & Auditing ](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=113312s)*
 
@@ -22,9 +22,7 @@ This repo has a few contracts with big flaws, see if you can see them, and see i
   - [Articles](#articles)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [No Typescript Support](#no-typescript-support)
-    - [Optional Gitpod](#optional-gitpod)
+   
 - [Usage](#usage)
   - [Slither](#slither)
   - [Echidna](#echidna)
@@ -143,30 +141,12 @@ PRs welcome to improve the list.
 -   [Docker](https://docs.docker.com/get-docker/)
     -   You'll know you've installed docker right if you can run:
     -   `docker --version` and get an ouput like `Docker version xx.xx.xx, build xxxxx`
-
-## Quickstart
-
-```
-git clone https://github.com/PatrickAlphaC/hardhat-security-fcc
-cd hardhat-security-fcc
-yarn set version 1.22.19   # can skip if your default version is already 1.x.x
-yarn
-```
+ 
+ 
 
 (Yarn version 1 is recommended because auto-migration of this repo to yarn v2 doesn't go well. If your node version is incompatible with this, try node 16.19.1.)
 Then, go right into [usage](#usage)
-
-## No Typescript Support
-
-Sorry! Feel free to make a PR if you'd like to see typescript here. 
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/PatrickAlphaC/hardhat-security-fcc)
-
-
+ 
 # Usage
 
 ## Slither 
